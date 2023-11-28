@@ -53,7 +53,7 @@ export const checkApiLimit = async () => {
     }
 }
 
-export const getApiLimitcount = async () => {
+export const getApiLimitCount = async () => {
     const { userId } = auth();
 
     if (!userId) {
